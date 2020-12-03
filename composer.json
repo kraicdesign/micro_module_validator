@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-validator",
+    "name": "micro-module/laminas-validator",
     "description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -25,7 +25,7 @@
         }
     },
     "require": {
-        "php": "^7.1",
+        "php": "^7.1 || ^8.0",
         "container-interop/container-interop": "^1.1",
         "laminas/laminas-stdlib": "^3.2.1",
         "laminas/laminas-zendframework-bridge": "^1.0"
